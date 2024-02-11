@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #0000ff;
+            color: #ffff00;
+            text-align: center;
+            padding: 1em;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            background-color: #eee;
+            padding: 1em;
+        }
+
+        main {
+            text-align: center;
+            padding: 2em;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 1em;
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 2px;
+            text-align: left;
+        }
+
+        .table-container {
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .table-column {
+            flex: 1;
+            margin: 0 1em;
+        }
+
+        #dashboard {
+            background-color: mediumaquamarine;
+        }
+    </style>
+    <title>School Management System</title>
+</head>
+<body>
+    <header>
+        <h1>AKWABENGKROM DA SPORTS TEAM</h1>
+    </header>
+    <nav>
+        <button onclick="showDashboard()">DASHBOARD</button>
+        <button onclick="showFootball()">FOOTBALL</button>
+        <button onclick="showAthletics()">ATHLETICS</button>
+        <button onclick="showVolleyball()">VOLLEYBALL</button>
+    </nav>
+    <main id="dashboard">
+        <h2>WELCOME TO AKWABENGKROM D/A PRIMARY & JHS SPORTS DASHBOARD </h2>
+        <div style="background-color: mintcream; padding: 10px;">
+            <h2>Football Team</h2>
+            <p>Total JHS Boys: 15 </p>
+            <p>Total Primary Boys 19</p>
+            <p>Total Girls: 18</p>
+        </div>
+        <div style="background-color: aqua; padding: 10px;">
+            <h2>Volleyball Team</h2>
+            <p>Total Boys: 3</p>
+            <p>Total Girls: 3</p>
+        </div>
+        <div style="background-color: ghostwhite; padding: 10px;">
+            <h2>Athletics Team</h2>
+            <p>Total Boys: 3</p>
+            <p>Total Girls: 3</p>
+        </div>
+    </main>
+
+    <main id="football" style="display: none;">
+        <h2>Football Team</h2>
+        <div class="table-container">
+            <div class="table-column">
+                <table>
+                    <thead>
+
+    
+        
+                        <tr>
+                            <th bgcolor="aqua">JHS BOYS</th> <th bgcolor="aqua"> PRY.BOYS</th> <th bgcolor="aqua">JHS BOYS R.</th> <th bgcolor="aqua">PRY.BOYS R.</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+
+                        <tr>
+                            <td>1. HARISON</td> <td>1. BENJAMIN</td> <td> KINGSFORD</td> <td>12. AZIZ</td>
+                        </tr>
+                        <tr>
+                            <td>2. SAMMY</td> <td>2.  GOLDEN</td> <td> MESHACK</td> <td>13. PATRICK</td>
+                        </tr>
+                        <tr>
+                            <td>3. TAWIAH</td> <td>3. AMBOALA</td>  <td> RABIU</td> <td>14.  MATHEW</td>
+                            </tr>
+                        <tr>
+                            <td>4. ADINKRA</td> <td>4. SANTURO </td> <td>KYEREMEH </td> <td>15. DENIS </td>
+                            <tr>
+                            <td>5. COLLINS</td> <td>5. GRUPOUR</td> <td> </td> <td>16. ISAAC </td>
+                        </tr>
+                        <tr>
+                            <td>6. ALI  </td> <td>6. DERICK</td> <td></td> <td>17.OTOO</td>
+                        </tr>
+                        <tr>
+                            <td>7.ALYOREGE</td>  <td>7. SAMBA</td>   <td> </td> <td>18.YEREPOUR </td>
+                            </tr>
+                        <tr>
+                            <td>8. DAVIS</td>   <td>8. FRANCIS</td>   <td> </td> <td>19.MUSAH </td>
+                        </tr>
+                        </tr>
+                        <tr>
+                            <td>9. KWASI</td> <td>9. OWUSU </td>
+                        </tr>
+                        <tr>
+                            <td>10. ELVIS</td> <td>10. ACKAH </td>
+                        </tr>
+                        <tr>
+                            <td>11. MINTAH</td> <td>11. ABRAHAM</td>
+                            </tr>
+                        <tr>
+                        
+                        </tr>
+                        <tr>
+                            
+                            </tr>
+                        <tr>
+                          
+
+                    </tbody>
+                </table>
+            </div>
+            <div class="table-column">
+                <table>
+                    <thead>
+                        <tr>
+                            <th bgcolor="aqua"> JHS GIRLS</th>  <th bgcolor="aqua"> RESERVE GIRLS</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1. SAHARA</td>  <td>1. UNIFRED</td>
+
+                        </tr>
+                        <tr>
+                            <td>2. LORDINA</td> <td>2. DORIS</td>
+                        </tr>
+                        <tr>
+                            <td>3. ABIGAIRL</td>   <td>3. PATIENCE</td>
+                        </tr>
+                        <tr>
+                            <td>4. ELLEN</td> <td>4. AKOM PRECIOUS</td>
+                        </tr>
+                        <tr>
+                            <td>5. CECILIA</td> <td>5. REBECCA</td>
+                        </tr>
+                        <tr>
+                            <td>6. FATIMA</td>  <td>6. PRISCILLA</td>
+                        </tr>
+                        <tr>
+                            <td>7. NIBEYEH</td> <td>7. AGARTHER</td>
+                        </tr>
+                        <tr>
+                            <td>8.LAMISI</td>
+                        </tr>
+                        <tr>
+                            <td>9. PRECIOUS</td>
+                        </tr>
+                        <tr>
+                            <td>10. SERWAA</td>
+                        </tr>
+                        <tr>
+                            <td>11. ESTHER</td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </main>
+
+    <main id="athletics" style="display: none;">
+        <h2>Athletics Team</h2>
+        <div class="table-container">
+            <div class="table-column">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Boys</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Duku</td>
+                        </tr>
+                        <tr>
+                            <td>Annabel</td>
+                        </tr>
+                        <tr>
+                            <td>Unifred</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="table-column">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Girls</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Cecilia</td>
+                        </tr>
+                        <tr>
+                            <td>Leticia</td>
+                        </tr>
+                        <tr>
+                            <td>Hanna</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </main>
+
+    <main id="volleyball" style="display: none;">
+        <h2>Volleyball Team</h2>
+        <div class="table-container">
+            <div class="table-column">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Boys</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Mathew</td>
+                        </tr>
+                        <tr>
+                            <td>Davis</td>
+                        </tr>
+                        <tr>
+                            <td>Abraham</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="table-column">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Girls</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Doris</td>
+                        </tr>
+                        <tr>
+                            <td>Cecilia</td>
+                        </tr>
+                        <tr>
+                            <td>Unifred</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </main>
+
+    <script>
+        function showDashboard() {
+            hideAll();
+            document.getElementById('dashboard').style.display = 'block';
+        }
+
+        function showFootball() {
+            hideAll();
+            document.getElementById('football').style.display = 'block';
+        }
+
+        function showAthletics() {
+            hideAll();
+            document.getElementById('athletics').style.display = 'block';
+        }
+
+        function showVolleyball() {
+            hideAll();
+            document.getElementById('volleyball').style.display = 'block';
+        }
+
+        function hideAll() {
+            document.getElementById('dashboard').style.display = 'none';
+            document.getElementById('football').style.display = 'none';
+            document.getElementById('athletics').style.display = 'none';
+            document.getElementById('volleyball').style.display = 'none';
+        }
+    </script>
+</body>
+</html>
